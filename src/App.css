@@ -1,0 +1,58 @@
+body {
+  padding-top: 4rem;
+}
+
+#alert-box {
+    font-size: 14px;
+    text-align: center;
+    display: none;
+    position: fixed;
+    bottom: 4%;
+    left: 4%;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 7px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px rgba(5, 0, 5, 0.3);
+    z-index: 20;
+    background-color: #ddd;
+}
+
+.stat {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 1rem;
+    width: 7rem;
+}
+
+.contain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+/* Navbar.css */
+.nav-link {
+    color: inherit; /* Inherit the text color based on the theme */
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    background-color: rgba(0.1, 0.1, 0.1, 0.1); /* Change this based on your theme */
+    border-radius: 5px;
+  }
+  
+  .nav-link.active {
+    font-weight: bold;
+    color: #007bff; /* Bootstrap primary color */
+  }
+  
