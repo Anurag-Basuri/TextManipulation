@@ -1,0 +1,21 @@
+{
+  "short_name": "TextManipulation",
+  "name": "Text Manipulating website",
+  "icons": [
+    {
+      "src": "TM-favicon.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "TM-synbol.png",
+      "type": "image/png",
+      "sizes": "532x262",
+      "background_color" : "white"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#0000"
+}
